@@ -14,6 +14,9 @@ function App() {
         return;
       }
       setCounter(counter + 1);
+      // setCounter(prevCounter => prevCounter + 1);
+      // setCounter(prevCounter => prevCounter + 1);
+      // setCounter(prevCounter => prevCounter + 1); // value will inc counter times after applying this means by 4 at a time.
     }
   const removeValue = () => {
     if(counter <= 0){
@@ -34,4 +37,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
