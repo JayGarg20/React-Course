@@ -110,8 +110,8 @@ code {
 	background: var(--code-bg);
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @import "tailwindcss";
